@@ -24,3 +24,4 @@ export async function updateUsuarioById(id, data) {
   usuarios[index] = { ...usuarios[index], ...data };
   return usuarios[index];
 }
+
